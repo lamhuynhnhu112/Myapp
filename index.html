@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lumi App - Login</title>
+    <style>
+        body { background-color: #fdfcf0; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #fff; padding: 40px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 320px; text-align: center; }
+        h2 { color: #ffb7b2; margin-bottom: 25px; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #eee; border-radius: 10px; box-sizing: border-box; outline: none; background: #fafafa; }
+        .options { display: flex; justify-content: space-between; font-size: 12px; color: #aaa; margin: 10px 0 20px; }
+        .btn { width: 100%; padding: 12px; background: #b2e2f2; border: none; border-radius: 10px; color: #5a8ca0; font-weight: bold; cursor: pointer; }
+        .link { margin-top: 20px; font-size: 13px; color: #ccc; }
+        .link a { color: #ffb7b2; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <div class="options">
+                <label><input type="checkbox"> Remember me</label>
+                <a href="#" style="color: #aaa; text-decoration: none;">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Sign In</button>
+        </form>
+        <div class="link">New here? <a href="register.html">Create account</a></div>
+    </div>
+</body>
+</html>
